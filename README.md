@@ -57,7 +57,7 @@ An AI-powered Applicant Tracking System (ATS) resume evaluator built with **Stre
 3. Set up Environment Variables
    Create a .env file in the root directory of your project:
        
-       MISTRAL_API_KEY=your_mistral_api_key_here
+       GROQ_API_KEY=your_groq_api_key_her
          
 
 🏃 Running the Application
