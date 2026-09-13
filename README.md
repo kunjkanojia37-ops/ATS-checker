@@ -19,7 +19,7 @@ An AI-powered Applicant Tracking System (ATS) resume evaluator built with **Stre
 * **LLM Orchestration**: LangChain Core / LangChain Mistral AI
 * **Model**: Mistral AI (`mistral-small-2506`)
 * **PDF Parser**: `pypdf`
-* **Environment Management**: `python-dotenv`
+* **Environment management**: `python-dotenv`
 
 ---
 
@@ -36,8 +36,8 @@ An AI-powered Applicant Tracking System (ATS) resume evaluator built with **Stre
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/your-username/ats-resume-evaluator.git](https://github.com/your-username/ats-resume-evaluator.git)
-   cd ats-resume-evaluator
+   git clone [https://github.com/kunjkanojia37-ops/ATS-checker.git](https://github.com/kunjkanojia37-ops/ATS-checker.git)
+   cd ATS-checker
 
 1. Create and activate a virtual environment
 
@@ -59,7 +59,6 @@ An AI-powered Applicant Tracking System (ATS) resume evaluator built with **Stre
        
        MISTRAL_API_KEY=your_mistral_api_key_here
          
-
 
 🏃 Running the Application
 Launch the Streamlit dashboard using:
