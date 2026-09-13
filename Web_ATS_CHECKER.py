@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_mistralai import ChatMistralAI
+from langchain_groq import ChatGroq
 from langchain_core.output_parsers import StrOutputParser
 from pypdf import PdfReader  # Better for reading Streamlit memory buffers
 from dotenv import load_dotenv
@@ -18,7 +18,7 @@ with st.expander("ℹ️ Instructions", expanded=True):
     st.write("3. Click **Evaluate Resume** to get an ATS breakdown.")
 
 # 2. Setup LLM Chain
-llm = ChatMistralAI(model_name="mistral-small-2506", temperature=0.7)
+llm = ChatGroq(model_name="openai/gpt-oss-120b")
 OUTPUT_PARSER = StrOutputParser()
 
 prompt_template = ChatPromptTemplate.from_messages([
